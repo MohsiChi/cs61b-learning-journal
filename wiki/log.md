@@ -17,3 +17,7 @@
 | 2026-07-28 | Concepts created | 4 new concept pages: [[java-static-methods]], [[java-collections-list-map]], [[java-equals-vs-doubleequals]], [[java-recursion]] |
 | 2026-07-28 | Revision notes populated | 12 knowledge gaps identified, 8 resolved during session |
 | 2026-07-28 | Index updated | Wiki index now reflects all new and existing content |
+| 2026-07-30 | Lec 03 (Part 1) | References: 基本类型 vs 引用类型, new, null, 值拷贝 vs 地址拷贝 |
+| 2026-07-31 | Lec 03 (Part 2) | IntList 自引用类型, 递归 size()/get(), 构建链表, 头插法 |
+| 2026-07-31 | Concept filled | [[references-and-recursion]] stub → learned, 完整笔记 |
+| 2026-07-31 | Session complete | Lec 03 完成, session note finalized |

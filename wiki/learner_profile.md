@@ -68,7 +68,7 @@
 
 ## Current Status
 
-**Last updated**: 2026-07-06
-**Current focus**: CS61B Week 1 — Java setup, Intro to classes and objects
-**Biggest knowledge gap**: 数据结构在 Java 中的工程实现（接口设计、迭代器模式、Comparable/Comparator）
-**Next milestone**: 完成 CS61B Week 1-2（Intro + Lists）+ Project 0: 2048
+**Last updated**: 2026-07-31
+**Current focus**: CS61B Week 2 — References, Recursion, Linked Lists (Lec 03 完成, 进入 Lec 04 SLList)
+**Biggest knowledge gap**: 链表的封装设计（SLList 嵌套类、访问控制）、递归与迭代的选择
+**Next milestone**: 完成 CS61B Week 2（Lists）+ Proj0: 2048

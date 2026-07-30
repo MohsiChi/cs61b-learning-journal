@@ -40,7 +40,7 @@
 | [[java-equals-vs-doubleequals]] | 🌱 learned | Week 1: == vs .equals() 陷阱 |
 | [[java-collections-list-map]] | 🌱 learned | Week 1: List & Map 快速参考 |
 | [[java-recursion]] | 🌱 learned | Week 1-2: Java 递归 |
-| [[references-and-recursion]] | stub | Week 2: 引用与递归 |
+| [[references-and-recursion]] | 🌱 learned | Week 2: 引用与递归 — Lec 03 完成 |
 | [[linked-lists]] | stub | Week 2-3: 链表 |
 | [[arrays-and-arraylists]] | stub | Week 2-3: 数组 |
 | [[testing-and-tdd]] | stub | Week 3: 测试 |

@@ -14,6 +14,10 @@
 | String methods | L2 (can use) | 2026-07-28 | `.charAt()`, `.length()`, `.equals()` |
 | Java generics (basic) | L1 (seen it) | 2026-07-28 | `List<Integer>`, `Map<Character, Integer>` 语法，原理待深入 |
 | Java for-each loop | L2 (can use) | 2026-07-28 | `for (Type x : collection)` 模式 |
+| Java references vs primitives | L3 (can explain) | 2026-07-31 | 门牌号 vs 房子，值拷贝 vs 地址拷贝 |
+| Self-referential types | L2 (can use) | 2026-07-31 | IntList rest 字段类型就是 IntList |
+| Recursive linked list ops | L2 (can use) | 2026-07-31 | size(), get(i) 递归实现 |
+| Linked list construction | L2 (can use) | 2026-07-31 | new IntList + 头插法 |
 
 ## Recently Learned
 *Start your first CS61B learning session to populate this section.*
@@ -29,6 +33,7 @@
 |------|------|------|---------|
 | Module 1: Java + Lists | Week 1-3 | 🔄 进行中 | — |
 | └ Week 1: Setup + Java Review | Week 1 | ✅ 已完成 | 2026-07-28 |
+| └ Week 2: References + Lists | Week 2 | 🔄 进行中 | — |
 | Proj0: 2048 | Week 1-2 | ⬜ 未开始 | — |
 | Proj1A: LinkedListDeque61B | Week 3-4 | ⬜ 未开始 | — |
 | Proj1B: ArrayDeque61B | Week 4 | ⬜ 未开始 | — |
