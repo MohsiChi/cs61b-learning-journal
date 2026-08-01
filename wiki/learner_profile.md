@@ -5,7 +5,7 @@
 
 ## Basic Info
 
-**Name**: MaksikCheung
+**Name**: Mohsi
 **Current Role**: Student
 **Field**: Computer Science
 
@@ -33,7 +33,7 @@
 3. Java 作为静态类型语言，其类型系统如何影响数据结构的设计选择？
 
 ### My active research questions (what I'm working on now):
-1. 链表、数组、树等基础结构在 Java 中的实现与 C/Python 有何本质不同？（引用语义 vs 指针 vs 对象引用）
+1. 链表、数组、树等基础结构在 Java 中的实现与 C 有何本质不同？（引用语义 vs 指针）
 2. 渐进分析 (Asymptotics) 如何指导实际工程中的数据结构选择？
 3. 平衡树（B-Tree, Red-Black Tree）的设计动机是什么？它们在数据库和文件系统中如何应用？
 

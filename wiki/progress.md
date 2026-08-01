@@ -20,10 +20,25 @@
 | Linked list construction | L2 (can use) | 2026-07-31 | new IntList + 头插法 |
 
 ## Recently Learned
-*Start your first CS61B learning session to populate this section.*
+
+| 概念 | 日期 | 来源 |
+|------|------|------|
+| Java 引用 vs 基本类型（值拷贝 vs 地址拷贝） | 2026-07-30 | Lec 03 Part 1 |
+| `new` 与堆分配、`null` | 2026-07-30 | Lec 03 Part 1 |
+| 自引用类型（IntList rest） | 2026-07-31 | Lec 03 Part 2 |
+| 递归 size() / get(i) | 2026-07-31 | Lec 03 Part 2 |
+| 链表构建（头插法） | 2026-07-31 | Lec 03 Part 2 |
 
 ## Needs Review
-*Nothing yet.*
+
+> 详细清单见 [[revision_notes]]。以下为高优先级待补项：
+
+| 概念 | 优先级 | 计划时间 |
+|------|--------|---------|
+| Java 泛型原理（E/K/V 含义） | 🔴 高 | Week 3 继承学完后 |
+| 多态（Polymorphism） | 🔴 高 | Week 3-5 |
+| `==` vs `.equals()` 底层 | 🟡 中 | 学习 @Override 时 |
+| 递归 vs 迭代选择 | 🟡 中 | Week 2-3 链表练习 |
 
 ---
 

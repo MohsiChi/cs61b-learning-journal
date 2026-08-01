@@ -23,4 +23,4 @@ status: stub
 
 ## 与已知知识的关联
 - Java OOP (已知) → CS61B 的设计哲学深度
-- Python `__lt__` / `__iter__` (已知 CS61A) → Java 的接口体系
+- C 的 qsort 比较函数指针 (已知) → Java 的 Comparable/Comparator 接口体系

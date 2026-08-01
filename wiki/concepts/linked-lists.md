@@ -22,4 +22,4 @@ status: stub
 
 ## 与已知知识的关联
 - C 链表实现 (已知) → Java 封装 + 引用安全
-- Python list (已知 CS61A) → Java ArrayList vs LinkedList 的底层差异
+- C 数组 vs 手写链表 (已知) → Java ArrayList vs LinkedList 的底层差异

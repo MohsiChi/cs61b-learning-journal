@@ -21,3 +21,5 @@
 | 2026-07-31 | Lec 03 (Part 2) | IntList 自引用类型, 递归 size()/get(), 构建链表, 头插法 |
 | 2026-07-31 | Concept filled | [[references-and-recursion]] stub → learned, 完整笔记 |
 | 2026-07-31 | Session complete | Lec 03 完成, session note finalized |
+| 2026-08-02 | 全库体检与维护 | ① git 校验：全部提交无损，Lec 03 状态正确（昨日故障未伤及 wiki）② 补建 16 个概念 stub 与 index.md 对齐 ③ 重写 [[java-vs-python-ds]]（去 Python，改 Java vs C）④ 清理 4 个概念页 Python 类比 ⑤ progress.md 补齐 Recently Learned / Needs Review ⑥ 修正 CLAUDE.md（4 projects、移除 CS61A 声明）⑦ 新增文件边界规则 + Python 禁用规则（CLAUDE.md + system.md）⑧ 与 sp24 官网核对 course_schedule 一致 |
+| 2026-08-02 | 待办提醒 | raw/clips/csdiy-cs61b-guide.md 自 07-06 起未消化，按摄入协议需与用户讨论后编译 |

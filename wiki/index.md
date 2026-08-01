@@ -1,6 +1,6 @@
 # Wiki Index — CS61B
 
-> Auto-maintained by AI. Last updated: 2026-07-06
+> Auto-maintained by AI. Last updated: 2026-08-02
 
 ## Raw Materials Inventory
 
@@ -74,7 +74,7 @@
 
 ## Open Questions
 
-- [[java-vs-python-ds]] — Java 的静态类型如何影响数据结构设计？与 Python 的动态类型相比各有什么优劣？
+- [[java-vs-python-ds]] — Java 静态类型与 C 的类型系统如何影响数据结构设计？（2026-08-02 已按无 Python 基础重写）
 - [[recursion-vs-iteration-java]] — 在 Java 中递归和迭代的实际性能差异？JVM 如何优化递归？
 - [[balanced-trees-why]] — 为什么需要这么多平衡树变体（B-Tree, RBT, AVL, LLRB）？各自的工程适用场景是什么？
 - [[hashing-collisions]] — 哈希碰撞的各种解决策略（Chaining, Open Addressing, Cuckoo Hashing）在 Java 标准库中如何选择？

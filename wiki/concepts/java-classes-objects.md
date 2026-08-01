@@ -21,5 +21,5 @@ status: stub
 - HW 0A, HW 0B, Lab 1
 
 ## 与已知知识的关联
-- Java 类设计 vs Python class (已知 CS61A)
+- Java 类设计 vs C struct + 函数指针（已知）— Java 把数据和操作绑定为对象
 - static 方法 vs C 普通函数

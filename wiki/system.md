@@ -54,6 +54,18 @@ The AI does NOT explain unless the human is genuinely stuck after multiple attem
 - `progress.md`: Auto-updated after each learning session. Tracks concept mastery.
 - `revision_notes.md`: Auto-updated when knowledge gaps are discovered.
 
+## File Boundaries (2026-08-02 新增)
+
+**AI 只允许写以下内容：**
+- `research-wiki/wiki/` 下的 AI 管理文件（concepts/、connections/、questions/、index.md、log.md、progress.md、revision_notes.md、会话记录）
+
+**AI 绝对不允许写：**
+- `learner_profile.md` — 用户所有，只读
+- 代码目录（`skeleton-sp24/`、`library-sp24/`）— 学习作业时须先询问用户、经同意后操作
+- `research-wiki/` 之外的任何文件 — 无论内容是什么
+
+> 背景：2026-08-01 发生 AI 越界修改文件的故障，此规则防止复发。违反此规则 = 系统故障。
+
 ## Reading Level Defaults
 
 When processing materials without explicit instructions:
