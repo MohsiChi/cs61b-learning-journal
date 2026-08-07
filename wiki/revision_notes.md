@@ -19,6 +19,7 @@
 | 遗漏点 | 发现场景 | 优先级 |
 |--------|---------|--------|
 | 内存管理（malloc/free） | 讨论 C 指针时自述不会内存管理 | 🟡 中 — CS61C 会覆盖 |
+| 结构体指针访问（`p->field` / `(*p).field`） | 教学中发现：C 课程未学到结构体指针语法 | 🟡 中 — 需要时补，或 CS61C 覆盖 |
 
 ### 工具链
 
@@ -49,3 +50,6 @@
 | for-each 循环语法 | 2026-07-28 | HW 0B 替代传统 for 循环 |
 | `char` 可以 `++`，是数字类型 | 2026-07-28 | letterToNum 练习 |
 | Java 字符字面量 `'c'` vs 参数名 `c` | 2026-07-28 | countOccurrencesOfC 练习 |
+| null 引用上调用方法 → NullPointerException | 2026-08-08 | SLList 哨兵设计前的引导讨论 |
+| Java 字段初始化顺序（默认值 → 字段初始化 → 构造器 body） | 2026-08-08 | 错误方案 `size = 1 + rest.size()` 触发 NPE 时发现 |
+| Overload（重载）vs Override（重写） | 2026-08-08 | 多构造器讨论；Override 待 Week 3 继承深入 |

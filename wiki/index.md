@@ -1,6 +1,6 @@
 # Wiki Index — CS61B
 
-> Auto-maintained by AI. Last updated: 2026-08-02
+> Auto-maintained by AI. Last updated: 2026-08-08
 
 ## Raw Materials Inventory
 
@@ -41,7 +41,7 @@
 | [[java-collections-list-map]] | 🌱 learned | Week 1: List & Map 快速参考 |
 | [[java-recursion]] | 🌱 learned | Week 1-2: Java 递归 |
 | [[references-and-recursion]] | 🌱 learned | Week 2: 引用与递归 — Lec 03 完成 |
-| [[linked-lists]] | stub | Week 2-3: 链表 |
+| [[linked-lists]] | 🌱 learned | Week 2-3: 链表 — Lec 04 SLList 完成 |
 | [[arrays-and-arraylists]] | stub | Week 2-3: 数组 |
 | [[testing-and-tdd]] | stub | Week 3: 测试 |
 | [[inheritance-polymorphism]] | stub | Week 3-5: 继承与多态 |

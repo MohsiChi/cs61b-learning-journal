@@ -18,6 +18,11 @@
 | Self-referential types | L2 (can use) | 2026-07-31 | IntList rest 字段类型就是 IntList |
 | Recursive linked list ops | L2 (can use) | 2026-07-31 | size(), get(i) 递归实现 |
 | Linked list construction | L2 (can use) | 2026-07-31 | new IntList + 头插法 |
+| SLList 包装盒设计 | L3 (can explain) | 2026-08-08 | size 字段 + first 引用；列表 ≠ 节点 |
+| 哨兵节点（sentinel） | L2 (can use) | 2026-08-08 | 占位节点消除所有 null 判断；addFirst 只动 first.next |
+| size 字段缓存 | L2 (can use) | 2026-08-08 | size() = O(1)，对比 IntList 递归 O(N) |
+| Overloading（重载） | L2 (can use) | 2026-08-08 | 多构造器；与 Override 区分 |
+| 嵌套类（nested class） | L2 (can use) | 2026-08-08 | IntNode 归属 + 封装 |
 
 ## Recently Learned
 
@@ -28,6 +33,9 @@
 | 自引用类型（IntList rest） | 2026-07-31 | Lec 03 Part 2 |
 | 递归 size() / get(i) | 2026-07-31 | Lec 03 Part 2 |
 | 链表构建（头插法） | 2026-07-31 | Lec 03 Part 2 |
+| null 上调用方法 → NullPointerException | 2026-08-08 | 会话引导（IntList 判空问题） |
+| SLList 包装盒 + 哨兵节点 + size 字段 | 2026-08-08 | Lec 04 |
+| Overloading vs Override | 2026-08-08 | Lec 04 |
 
 ## Needs Review
 
@@ -48,7 +56,7 @@
 |------|------|------|---------|
 | Module 1: Java + Lists | Week 1-3 | 🔄 进行中 | — |
 | └ Week 1: Setup + Java Review | Week 1 | ✅ 已完成 | 2026-07-28 |
-| └ Week 2: References + Lists | Week 2 | 🔄 进行中 | — |
+| └ Week 2: References + Lists | Week 2 | 🔄 进行中 (Lec 03 ✓ Lec 04 ✓) | — |
 | Proj0: 2048 | Week 1-2 | ⬜ 未开始 | — |
 | Proj1A: LinkedListDeque61B | Week 3-4 | ⬜ 未开始 | — |
 | Proj1B: ArrayDeque61B | Week 4 | ⬜ 未开始 | — |

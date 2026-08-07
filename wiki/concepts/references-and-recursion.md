@@ -75,13 +75,44 @@ L.rest.rest = new IntList(15, null);
 
 ## 与已知知识的关联
 - **C 指针** → Java 引用是安全指针（无指针运算，不能加减地址）
-- **Python 对象引用** (CS61A) → Java 引用受静态类型约束（`IntList rest` 只能是 IntList 或 null）
+- **C 结构体嵌套指针** → Java 对象引用受静态类型约束（`IntList rest` 只能是 IntList 或 null）
 
 ## 为什么需要 SLList？
 裸 IntList 的弊端：
 - `L.rest.rest.rest = ...` 容易出错
 - 用户直接操作内部结构，不安全
 - → 需要封装类 (SLList) 隐藏裸节点
+
+## 结构图：IntList 的内存布局（SVG）
+
+> 每个节点 = 两个格：左边 `first`（值），右边 `rest`（指向下一个节点的地址）。变量 `L` 只是指向第一个节点的门牌号。
+
+<svg viewBox="0 0 580 130" xmlns="http://www.w3.org/2000/svg" font-family="Consolas, monospace, sans-serif">
+<defs>
+<marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M 0 0 L 10 5 L 0 10 z" fill="#333"/>
+</marker>
+</defs>
+<text x="290" y="18" font-size="14" text-anchor="middle" fill="#444">IntList 内存结构：3 → 10 → 15</text>
+<rect x="30" y="40" width="140" height="70" fill="white" stroke="#333" stroke-width="2"/>
+<line x1="100" y1="40" x2="100" y2="110" stroke="#333" stroke-width="2"/>
+<text x="65" y="85" font-size="20" text-anchor="middle">3</text>
+<text x="135" y="85" font-size="18" text-anchor="middle">→</text>
+<rect x="220" y="40" width="140" height="70" fill="white" stroke="#333" stroke-width="2"/>
+<line x1="290" y1="40" x2="290" y2="110" stroke="#333" stroke-width="2"/>
+<text x="255" y="85" font-size="20" text-anchor="middle">10</text>
+<text x="325" y="85" font-size="18" text-anchor="middle">→</text>
+<rect x="410" y="40" width="140" height="70" fill="white" stroke="#333" stroke-width="2"/>
+<line x1="480" y1="40" x2="480" y2="110" stroke="#333" stroke-width="2"/>
+<text x="445" y="85" font-size="20" text-anchor="middle">15</text>
+<text x="520" y="85" font-size="15" text-anchor="middle" fill="#888">null</text>
+<line x1="170" y1="75" x2="216" y2="75" stroke="#333" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="360" y1="75" x2="406" y2="75" stroke="#333" stroke-width="2" marker-end="url(#arr)"/>
+<text x="12" y="80" font-size="18" font-weight="bold">L</text>
+<line x1="16" y1="75" x2="28" y2="75" stroke="#333" stroke-width="2" marker-end="url(#arr)"/>
+</svg>
+
+**看这张图回答**：`L` 能直接"走到"第 3 个节点吗？如果某个用户执行 `L.rest.rest = 另一个链表`，图会怎么变？——这就是 SLList 要封装的隐患。
 
 ## 资源
 - Lec 03 (Spring 2024)

@@ -86,6 +86,6 @@ List、Map、数组都遵循同一个模式：**有顺序的容器，用索引/k
 
 ## 相关概念
 
-- [[java-arrays]] — Java 数组
+- [[arrays-and-arraylists]] — Java 数组与 ArrayList
 - [[hashing]] — HashMap 背后的哈希原理（Week 7-8）
 - [[linked-lists]] — LinkedList 的实现（Week 2）

@@ -23,3 +23,5 @@
 | 2026-07-31 | Session complete | Lec 03 完成, session note finalized |
 | 2026-08-02 | 全库体检与维护 | ① git 校验：全部提交无损，Lec 03 状态正确（昨日故障未伤及 wiki）② 补建 16 个概念 stub 与 index.md 对齐 ③ 重写 [[java-vs-python-ds]]（去 Python，改 Java vs C）④ 清理 4 个概念页 Python 类比 ⑤ progress.md 补齐 Recently Learned / Needs Review ⑥ 修正 CLAUDE.md（4 projects、移除 CS61A 声明）⑦ 新增文件边界规则 + Python 禁用规则（CLAUDE.md + system.md）⑧ 与 sp24 官网核对 course_schedule 一致 |
 | 2026-08-02 | 待办提醒 | raw/clips/csdiy-cs61b-guide.md 自 07-06 起未消化，按摄入协议需与用户讨论后编译 |
+| 2026-08-02 | Skill 锤炼（参考 Obsidian Vault Notes 作者架构） | ① CLAUDE.md 新增非协商条款 #10 写前检查（git status/diff 后再写，禁整文件重建）② system.md 新增写前检查、任务路由表、读取范围默认值（≤3 概念页）③ 新增 tools/wiki_check.py 一致性校验（wikilink 解析、index 漂移、状态统计）④ 修复：index 4 个缺失 stub（2 connections + 2 questions，含 .md 后缀坑）⑤ 修复死链 java-arrays→arrays-and-arraylists ⑥ README 补 tools/ 与日志 ⑦ 校验通过：25 概念页（20 stub + 5 learned）零问题 |
+| 2026-08-08 | Lec 04 (SLList) 教学会话 | ① IntList 三个不方便引导（判空/NPE、头插静默丢数据、size O(N) 循环爆炸）② SLList 包装盒设计（size 字段 + first 引用 + 嵌套 IntNode）③ 哨兵节点消除所有 null ④ addFirst/getFirst/size 实现 ⑤ 概念页 [[linked-lists]] stub → learned ⑥ 记录新缺口：C 结构体指针语法未学 ⑦ 解决：NPE、字段初始化顺序、Overload vs Override |

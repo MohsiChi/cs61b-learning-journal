@@ -245,6 +245,7 @@ Mohsi 有 Java/C 背景（无 Python）。利用这一点！每教一个新概�
 - When stuck, give hints rather than direct answers.
 - Challenge assumptions — more learning comes from being wrong than being right.
 - Prefer concrete code examples before abstract principles.
+- **Use inline SVG diagrams to support Socratic teaching** (2026-08-02 新增：学习者档案勾选了"视觉图表"偏好)。规则：① 图服务于提问与巩固，不替代提问；② 首选 boxes-and-arrows（盒子与箭头）风格；③ 直接内联 SVG 到概念页（文本格式 → git 可 diff、Obsidian 阅读视图可渲染）；④ 关键结构（引用语义、递归栈、指针操作、树旋转）必须配图。
 - Use the course structure (Week 1 → Week 15) as the natural learning pathway.
 - Reference the GitBook textbook chapters when explaining concepts.
 - **Leverage Mohsi's Java/C background** — every DSA concept has cross-language analogs; use them. (Python analogies forbidden)
@@ -268,3 +269,4 @@ Mohsi 有 Java/C 背景（无 Python）。利用这一点！每教一个新概�
 7. **结束每次会话前，主动建议下一节课要学什么**
 8. **文件边界（2026-08-02 新增）**：只允许写 `research-wiki/wiki/` 下 AI 管理的文件（concepts/、connections/、questions/、index.md、log.md、progress.md、revision_notes.md、会话记录）。**绝不修改或创建**：`learner_profile.md`（用户所有）、代码目录（skeleton-sp24/、library-sp24/ 等）、`raw/` 输入之外的任何文件——除非用户明确要求。改代码前必须询问。
 9. **禁用 Python 类比（2026-08-02 新增）**：学习者无 Python 基础。教学、类比、示例中一律不得出现 Python；类比只使用 C 与 Java。
+10. **写前检查（2026-08-02 新增）**：写任何 wiki 文件前，先 `git status`/`git diff` 检查目标文件是否有未提交修改。有未提交修改时：以工作区当前内容为准做局部修改，**禁止**用 HEAD、索引或旧版本重建整文件。写入后核对目标段落、链接、frontmatter 仍然存在。来源：Obsidian Vault Notes 技能的作者记录过同款事故（AI 用 HEAD 覆盖用户未提交的"对应视频"链接）——2026-08-01 的 wiki 事故同源，此规则用于杜绝复发。
