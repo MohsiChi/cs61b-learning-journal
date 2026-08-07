@@ -39,31 +39,3 @@ tools/
 ## 关于我
 
 CST专业，Java/C 背景，通过 CS61B 系统学习数据结构与算法设计。
-
-<svg viewBox="0 0 660 200" xmlns="http://www.w3.org/2000/svg">
-    <text x="20" y="30" font-size="14" font-weight="bold" fill="#4a6fa5">第一次后（你的代码）:</text>
-    <text x="20" y="60" font-size="13" fill="#333">L</text>
-    <line x1="35" y1="56" x2="58" y2="56" stroke="#4a6fa5" stroke-width="2"/>
-    <rect x="58" y="36" width="45" height="40" rx="6" fill="#fff8e1" stroke="#f9a825" stroke-width="2"/>
-    <text x="80" y="60" text-anchor="middle" font-size="13" fill="#f9a825">0</text>
-    <line x1="103" y1="56" x2="126" y2="56" stroke="#2e7d32" stroke-width="2"/>
-    <rect x="126" y="36" width="45" height="40" rx="6" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
-    <text x="148" y="60" text-anchor="middle" font-size="13" fill="#2e7d32">10</text>
-    <line x1="171" y1="56" x2="194" y2="56" stroke="#999"/>
-    <circle cx="200" cy="56" r="4" fill="none" stroke="#999"/>
-
-    <text x="20" y="125" font-size="14" font-weight="bold" fill="#4a6fa5">第二次后（你的代码）:</text>
-    <text x="20" y="155" font-size="13" fill="#333">L</text>
-    <line x1="35" y1="151" x2="58" y2="151" stroke="#4a6fa5" stroke-width="2"/>
-    <rect x="58" y="131" width="45" height="40" rx="6" fill="#fff8e1" stroke="#f9a825" stroke-width="2"/>
-    <text x="80" y="155" text-anchor="middle" font-size="13" fill="#f9a825">0</text>
-    <line x1="103" y1="151" x2="126" y2="151" stroke="#2e7d32" stroke-width="2"/>
-    <rect x="126" y="131" width="45" height="40" rx="6" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2"/>
-    <text x="148" y="155" text-anchor="middle" font-size="13" fill="#2e7d32">20</text>
-    <line x1="171" y1="151" x2="194" y2="151" stroke="#999"/>
-    <circle cx="200" cy="151" r="4" fill="none" stroke="#999"/>
-
-    <rect x="320" y="131" width="45" height="40" rx="6" fill="#fdecea" stroke="#c0392b" stroke-width="2"/>
-    <text x="342" y="155" text-anchor="middle" font-size="13" fill="#c0392b">10</text>
-    <text x="342" y="120" text-anchor="middle" font-size="12" fill="#c0392b">孤儿：没人引用它了</text>
-  </svg>
